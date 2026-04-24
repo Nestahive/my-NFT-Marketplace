@@ -15,7 +15,7 @@ function NavBar() {
 
   return (
     <header className="navbar">
-      <div className="navbar-brand">⬡ NFT Market</div>
+      <div className="navbar-brand">⬡ My NFT Studio</div>
       <nav className="navbar-links">
         <NavLink to="/"        className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>Marketplace</NavLink>
         <NavLink to="/create"  className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>Create</NavLink>
